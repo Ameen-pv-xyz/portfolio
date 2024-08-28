@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-image: url(bgr.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+
+        }
+        .main-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+        .main-section h1{
+            color: #fff;
+        }
+        .profile-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #007bff;
+        }
+        .profile-photo:hover {
+          transform: scale(1.1);
+      
+        }
+        .about-section, .skill-section, .project-section, .contact-section {
+            padding: 60px 0;
+        }
+        .about-section h2, .skill-section h2, .project-section h2, .contact-section h2 {
+            margin-bottom: 30px;
+            font-size: 2rem;
+            color: #007bff;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .skill-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skill-section li {
+            background: #007bff;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        .project-section .project {
+            margin-bottom: 30px;
+        }
+        .project-section h3 {
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+        .project-section p {
+            font-size: 1rem;
+        }
+        .contact-section {
+            background: #f8f9fa;
+        }
+        .contact-section p {
+            font-size: 1.1rem;
+        }
+        .contact-section a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            background: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container{
+            border-radius: 30px;
+        }
+        .card {
+            border-radius: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            background-color: bisque  ;
+        }         
+
+        
+        
+
+
+      
+    </style>
+</head>
+<body>
+
+    
+    <section class="main-section">
+        <img src="myimage.jpg" alt="Your Photo" class="profile-photo">
+        <h1>Mohammed Ameen pv</h1>
+    </section>
+
+    
+    <section class="about-section container">
+        <h2>About Me</h2>
+        <b><p>Hi..myself Mohammed Ameen pv, compleated plus two on the current year 2024 , iam eager to know about various coding related topics ,born on malappuram district, kerala, india
+          this is small portfolio which i made using bootstrapp , 
+        </p></b>
+        <br><br>
+
+       <CENTER><h1><i>DOB:20TH DECEMBER 2005</i></h1>
+        <h1><i>PLACE:PADIKKAL</i></h1>
+        <h1><i>AGE:18 YR OLD</i></h1>
+        <h1><i>QUALIFICATION:PLUS TWO</i></h1></CENTER>
+
+    </section>
+    <CENTER><i><B><H2> MY SKILLS </H2></B></i></CENTER>
+
+
+    <center><B><h1 style="color: aquamarine;">HTML</h1></B><div class="progress w-25  " role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 80%"> 80%</div>
+      </div></center>
+      <br>
+      <center><B><H1 style="color: yellow;"> CSS</H1></B><div class="progress w-25" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemi"0" aria-valuemax="100">
+        <div class="progress-bar bg-info text-dark" style="width: 75%">75%</div>
+      </div></center>
+      <br>
+     <center> <B><H1 style="color: bisque;">JavaScript</H1></B><div class="progress w-25" role="progressbar" aria-label="Warning example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning text-dark" style="width: 60%">60%</div>
+      </div>
+      </center>
+      <br>0
+      
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Skill Section</title>
+          <script src="index.js"></script>
+          <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+          <style>
+              .card {
+                  border-radius: 15px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              }
+              .card-title {
+                  font-size: 1.5rem;
+                  font-weight: bold;
+              }
+              .card-text {
+                  font-size: 1rem;
+              }
+              .container {
+                  max-width: 1200px;
+              }
+            
+          </style>
+      </head>
+      <body>
+          <div class="container my-5">
+              <h2 class="text-center mb-4" style="color: navy;">HTML CSS and JS-SCRIPT</h2>
+              <div class="row">
+        
+                  <div class="col-md-4 mb-4">
+                      <div class="card">
+                          <div class="card-body">
+                              <h5 class="card-title">HTML</h5>
+                              <p class="card-text">
+                                HTML, or HyperText Markup Language, is the standard language used to create and design web pages. It structures content on the web by using a system of tags and attributes. HTML elements include tags liKE HTML , P , U, B ETC.. and many others, which define the different parts of a web page, such as headings, paragraphs, links, images, and more. HTML documents are structured in a nested hierarchy of elements, allowing browsers to render and display content appropriately. While HTML handles the content and structure, CSS and JavaScript often work alongside it to enhance the styling and functionality of web pages.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-4 mb-4">
+                      <div class="card">
+                          <div class="card-body">
+                              <h5 class="card-title">CSS</h5>
+                              <p class="card-text">.
+                                CSS, or Cascading Style Sheets, is a stylesheet language used to control the presentation and layout of HTML documents. It allows web designers to apply styles, such as colors, fonts, spacing, and positioning, to HTML elements, enhancing the visual appeal and usability of web pages. CSS can be applied inline, embedded within the HTML, or linked externally, enabling consistent styling across multiple pages. By separating content (HTML) from design (CSS), it simplifies maintenance and improves design flexibility. css relevent in the case of html codes  it can done html elements as good looking by css frame work
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-4 mb-4">
+                      <div class="card">
+                          <div class="card-body">
+                              <h5 class="card-title">JS</h5>
+                              <p class="card-text">.
+                                JavaScript (JS) is a versatile programming language used to create interactive and dynamic features on web pages. It enables developers to manipulate HTML and CSS, handle events, validate forms, and communicate with servers through asynchronous requests. JavaScript runs in the browser, allowing for real-time updates and interactive elements like sliders, pop-ups, and animations. It can be used alongside HTML and CSS to enhance user experience and build complex web applications. With the advent of frameworks and libraries like React, Angular, and Vue, JavaScript has become even more powerful for modern web development.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    
+    <section class="project-section container">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4 project">
+                <h3>projects 1</h3>
+                <div class="card" style="width: 23rem;">
+                    <img src="manlp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Html project</h5>
+                      <p class="card-text"> html projects done by me for the past few days ago</p>
+                      <br>
+                      <br>
+                      <br>
+                      <a href="#" class="btn btn-primary">view project</a>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-md-4 project">
+                <h3>Project 2</h3>
+                <div class="card" style="width: 23rem; height: 35rem;">
+                    <img src="cssengine.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">css project</h5>
+                      <p class="card-text">css projects done by me for the past few days ago </p>
+                      <a href="#" class="btn btn-primary">view project</a>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-md-4 project">
+                <h3>Project 3</h3>
+                <div class="card" style="width: 23rem;">
+                    <img src="js.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">javascript project</h5>
+                      <p class="card-text">javascript projects done by me for the past few days ago</p>
+                      <a href="#" class="btn btn-primary">view project</a>
+                    </div>
+                  </div>
+                
+            </div>
+        
+        </div>
+    </section>
+    
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("ZlrzPPkLtDr03-Exk");
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="container border mt-3 bg-light">
+      <div class="row">
+        <div class="col-md-6 p-5 bg-primary text-white">
+          <h1>Hi there!</h1>
+          <h4>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
+          </h4>
+        </div>
+        <div class="col-md-6 border-left py-3">
+          <h1>Contact form</h1>
+          <div class="form-group">
+            <h5 for="name">Name</h5>
+            <input
+              type="text"+
+              class="form-control"
+              id="name"
+              placeholder="Enter name"
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="email">Email</h5>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="message">Message</h5>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+        </div>
+      </div>
+    </div>
+
+<br><br>
+    
+    <section class="contact-section container">
+      <CENTER><h2>Contact</h2>
+        <p>Email: <a href="ameenpvpdkl@gmail.com"></a></p></CENTER>
+
+        <CENTER><p><a href="https://github.com/Ameen-pv-xyz" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+        <p><a href="https://www.linkedin.com/in//" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p></CENTER>
+    </section>
+    <br><br>
+
+
+    <footer class="footer">
+        <p>&copy; 2012 Copy Right  Act. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
